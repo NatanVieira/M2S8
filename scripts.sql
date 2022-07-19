@@ -74,5 +74,20 @@
 
 -- Exercicio 9
 
-use Empresa;
-alter table Empregados drop column cor_favorita;
+--use Empresa;
+--alter table Empregados drop column cor_favorita;
+
+-- Exercicio 10
+use empresa;
+
+create table Carro 
+(
+	id int primary key identity(1,1) not null,
+	modelo varchar(25) not null,
+	marca varchar(30) not null,
+	potencia_motor int not null,
+	capacidade_porta_malas int not null,
+	tipo_cambio varchar(15) not null,
+	capacidade_tanque decimal(3,2) not null,
+	consumo_km_por_litro decimal(3,2) not null
+);
