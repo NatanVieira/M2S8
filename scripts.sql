@@ -62,6 +62,12 @@
 --										 ('Newt Scamander');
 
 --Exercicio 7
-use Empresa;
+--use Empresa;
 
-alter table Empregados add setor varchar(30) not null default 'engenharia';
+--alter table Empregados add setor varchar(30) not null default 'engenharia';
+
+
+-- Exercicio 8
+
+use Empresa;
+alter table Empregados add cor_favorita varchar(15);
