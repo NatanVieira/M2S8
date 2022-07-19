@@ -69,5 +69,10 @@
 
 -- Exercicio 8
 
+--use Empresa;
+--alter table Empregados add cor_favorita varchar(15);
+
+-- Exercicio 9
+
 use Empresa;
-alter table Empregados add cor_favorita varchar(15);
+alter table Empregados drop column cor_favorita;
